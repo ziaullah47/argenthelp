@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+body { font-family: 'Open Sans', sans-serif; }
+.post-card-content { margin: 20px; }
+.post-title { color: rgb(1, 92, 139); font-size: 28px; font-weight: 400; margin-top: 25px; line-height: 33.6px; }
+.subtitle { color: rgb(190, 72, 0); font-size: 20px; font-weight: 500; margin-top: 32px; }
+.content { font-size: 13px; line-height: 20px; margin-top: 12px; }
+.thumbnail { margin-top: 32px; border: solid 1px gray; }
+</style>
+</head>
+<body>
+<div class="post-card-content">
+<h2 class="post-title">KBI 311579 Argent Using A Lot Of Disk Space</h2>
+<p class="subtitle">Version</p>
+<p class="content">Argent Advanced Technology – All Versions</p>
+<p class="subtitle">Date</p>
+<p class="content">Wednesday, 11 October 2017</p>
+<p class="subtitle">Summary</p>
+<p class="content">The Argent Server application directory <drive>:\Argent is using a lot of disk space, especially directory <drive>:\Argent\ArgentForCompliance\LOG_ARCHIVE</p>
+<p class="subtitle">Technical Background</p>
+<p class="content">Argent for Compliance features a secondary Windows Security Log archive facility, data can be stored in either SQL or File, the <b>"File Only"</b> facility is enabled by default for each licensed server Node<br>The Events are compressed to file with 365 days retention of raw data<br>Even with the compression this can result in Gigabytes of file data<br>The <b>"Node Properties"</b> option <b>"Save Raw Audit Data"</b> determines what facility, if any (Do NOT Save) is set</p>
+<img src="IMAGE1.JPG" class="thumbnail"><br>
+<img src="IMAGE2.JPG" class="thumbnail"><br>
+<p class="content">The Argent for Compliance – Supervising Engine option <b>"Raw Log Archive Folder"</b> determines where to save the archived files<br>The <b>"Day Limit For Keep Raw Log At File System"</b> determines how long to keep the archived files</p>
+<img src="IMAGE3.JPG" class="thumbnail"><br>
+<p class="content">For more information see Argent Compliance White Papers<br>Event Log Archiving</p>
+<p class="subtitle">Resolution</p>
+<p class="content">N/A</p>
+</div>
+</body>
+</html>
